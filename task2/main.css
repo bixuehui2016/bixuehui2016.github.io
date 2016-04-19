@@ -1,0 +1,46 @@
+body {
+    font-family: 黑体;
+}
+
+div.nav {
+    height: 44px;
+    background-color: #333333;
+}
+
+.nav h1 {
+    background-image: url(img/bd_logo1.png);
+    background-size: 150px auto;
+    background-repeat: no-repeat;
+    background-position: 0 -28px;
+    color: transparent;
+    height: 44px;
+    float: left;
+}
+
+.nav h1 a {
+    display: block;
+    color: transparent;
+    float: left;
+    height: 44px;
+    width: 150px;
+}
+
+.nav ul li {
+    display: list-item;
+    float: left;
+    height: 44px;
+    line-height: 44px;
+    margin-left: 20px;
+    /*width: 150px;*/
+}
+
+.nav ul {
+    float: right;
+    list-style: disc outside;
+}
+
+.nav ul li a {
+    color: #F6F5F3;
+    font-size: 12px;
+    text-decoration: none;
+}
